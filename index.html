@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Cars</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="brand">Ahmed Cars</div>
+      <div class="stats">
+        <span>Speed: <strong id="speed">0</strong> km/h</span>
+        <span>Lap: <strong id="lap">1</strong></span>
+        <span>Time: <strong id="time">00:00.0</strong></span>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas" width="1280" height="720"></canvas>
+
+    <div id="message" class="message hidden">
+      <h1>Ahmed Cars</h1>
+      <p>Use arrow keys to race.</p>
+      <button id="startButton">Start Race</button>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
